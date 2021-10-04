@@ -1,0 +1,15 @@
+[package]
+name = "tokio_env"
+version = "0.0.1"
+description = "An utility library to configure the tokio runtime via environmental variables"
+edition = "2018"
+authors = ["Alexander Becker <bytealex@zerotwo.bot>"]
+keywords = ["tokio", "async"]
+categories = ["configuration", "accessibility"]
+license = "Apache-2.0"
+repository = "https://github.com/ZeroTwo-Bot/tokio-env"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "^1", features = ["rt", "rt-multi-thread"] }
