@@ -5,7 +5,7 @@ description = "An utility library to configure the tokio runtime via environment
 edition = "2018"
 authors = ["Alexander Becker <bytealex@zerotwo.bot>"]
 keywords = ["tokio", "async"]
-categories = ["configuration", "accessibility"]
+categories = ["config", "accessibility"]
 license = "Apache-2.0"
 repository = "https://github.com/ZeroTwo-Bot/tokio-env"
 
