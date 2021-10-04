@@ -1,6 +1,6 @@
 [package]
 name = "tokio_env"
-version = "0.0.1"
+version = "0.0.2"
 description = "An utility library to configure the tokio runtime via environmental variables"
 edition = "2018"
 authors = ["Alexander Becker <bytealex@zerotwo.bot>"]
