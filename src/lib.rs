@@ -3,7 +3,7 @@
 /// # Configuration
 /// Configuration is done via env variables.
 /// The following variables are supported:
-/// - `TOKIO_ENABLE_ALL` Whether to enable all types of thread pools. Defaults to true.
+/// - `TOKIO_ENABLE_ALL` Whether to enable all types of thread pools. Defaults to `true`.
 /// - `TOKIO_BLOCKING_THREADS` The amount of blocking threads to use.
 /// - `TOKIO_WORKER_THREADS` The amount of worker threads to use.
 /// - `TOKIO_THREAD_STACK_SIZE` The size of the stack for the created threads.
@@ -11,7 +11,7 @@
 ///
 /// # Defaults
 /// If the environment variable is not provided, it will fall back to the tokio defaults,
-/// except for the `TOKIO_ENABLE_ALL` which defaults to true.
+/// except for the `TOKIO_ENABLE_ALL` which defaults to `true`.
 ///
 /// So an empty configuration unfolds like this:
 /// ```
