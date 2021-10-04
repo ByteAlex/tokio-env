@@ -38,3 +38,7 @@ async fn run() -> i32 {
     0
 }
 ```
+
+## But... why?
+
+I'm tired of writing the same boilerplate code over and over again, so I made it a one-liner!
