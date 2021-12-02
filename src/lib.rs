@@ -1,3 +1,5 @@
+pub use tokio_env_macro::main;
+
 /// Builds a new tokio runtime and blocks on the given future `fun`.
 ///
 /// # Configuration
@@ -25,6 +27,18 @@
 ///
 /// # Usage
 /// Usage of this library could look like this:
+/// ```
+/// #[tokio_env::main]
+/// async fn main() -> i32 {
+///     println!("Awaiting the answer to the universe...");
+///     let task = tokio::spawn(async move { 42 });
+///     let answer = task.await.expect("Universe crashed");
+///     println!("Answer is {}", answer);
+///     answer
+/// }
+/// ```
+///
+/// Alternativly you can call the start_with method yourself.
 /// ```
 /// fn main() {
 ///     println!("Initializing tokio runtime...");

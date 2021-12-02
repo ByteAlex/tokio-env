@@ -1,6 +1,6 @@
 [package]
 name = "tokio_env"
-version = "0.0.2"
+version = "0.1.0"
 description = "An utility library to configure the tokio runtime via environmental variables"
 edition = "2018"
 authors = ["Alexander Becker <bytealex@zerotwo.bot>"]
@@ -13,3 +13,4 @@ repository = "https://github.com/ZeroTwo-Bot/tokio-env"
 
 [dependencies]
 tokio = { version = "^1", features = ["rt", "rt-multi-thread"] }
+tokio_env_macro = { path  ="./tokio_env_macro" }
