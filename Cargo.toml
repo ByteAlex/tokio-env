@@ -13,4 +13,4 @@ repository = "https://github.com/ZeroTwo-Bot/tokio-env"
 
 [dependencies]
 tokio = { version = "^1", features = ["rt", "rt-multi-thread"] }
-tokio_env_macro = { path  ="./tokio_env_macro" }
+tokio_env_macro = { version = "0.1.0", path  ="./tokio_env_macro" }
