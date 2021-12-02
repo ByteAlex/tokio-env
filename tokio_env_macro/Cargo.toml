@@ -1,7 +1,11 @@
 [package]
 name = "tokio_env_macro"
 version = "0.1.0"
+description = "Procedural macros for tokio_env"
 edition = "2018"
+authors = ["Alexander Becker <bytealex@zerotwo.bot>"]
+license = "Apache-2.0"
+repository = "https://github.com/ZeroTwo-Bot/tokio-env"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
